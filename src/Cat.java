@@ -52,6 +52,10 @@ public class Cat {
 		g2.fillOval(x - 25, y - 70, 15, 20);
 		g2.fillOval(x + 25, y - 70, 15, 20);
 		
+		//add body
+		g2.setColor(Color.black);
+		g.fillOval(x, y-10, 200, 200);
+		
 		// Meow text appears below cat head, +10 places below 
 		// so it doesn't overlap the drawing
 		g2.setColor(Color.red);
